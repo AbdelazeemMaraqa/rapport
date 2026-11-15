@@ -1,0 +1,14 @@
+{
+  "name": "rapport",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Rapport (تفاهُم): bilingual team assessments (DISC, 16 Types, Big Five) with a lead dashboard, development plans and per-member exports.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test tests/scoring.test.mjs"
+  }
+}
